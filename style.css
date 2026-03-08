@@ -7,6 +7,7 @@
 :root{
     /* background color */
     --bg-primary-color: rgb(31, 31, 31);
+    --bg-fill-color: #fdfdfc;
 
     /* text color */
     --text-primary-color-:rgb(221, 217, 217);
@@ -81,12 +82,16 @@ section .infos{
     display: flex;
     flex-grow: 1;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(30px,1fr));
-    grid-template-rows: repeat(auto-fill,minmax(30px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(50px,1fr));
+    grid-template-rows: repeat(auto-fill,minmax(50px,1fr));
   
 }
 .block {
     /* height: 30px;
     width: 30px; */
     border: 1px solid var(--border-primary-color-);
+}
+
+.fill {
+    background-color: var(--bg-fill-color);
 }

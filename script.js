@@ -76,3 +76,4 @@ addEventListener("keydown", (event) => {
     }
 })
 
+let hi = "hi"

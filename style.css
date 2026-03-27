@@ -8,6 +8,7 @@
     /* background color */
     --bg-primary-color: rgb(31, 31, 31);
     --bg-fill-color: #fdfdfc;
+    --bg-food-color: red;
 
     /* text color */
     --text-primary-color-:rgb(221, 217, 217);
@@ -94,4 +95,8 @@ section .infos{
 
 .fill {
     background-color: var(--bg-fill-color);
+}
+
+.food{
+    background-color: var(--bg-food-color);
 }
